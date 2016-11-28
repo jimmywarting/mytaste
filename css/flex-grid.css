@@ -13,8 +13,7 @@
 
 .col {
   flex: 1;
-  /*flex: 0 1 auto;*/
-  /*align-self: auto;*/
+  order: 1;
 }
 
 .flex-lower-left {

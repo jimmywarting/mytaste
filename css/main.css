@@ -88,12 +88,6 @@ h1 {
   font-weight: 400;
 }
 
-@media (min-width: 1411px) {
-  h1 {
-    /*font-size: 87.5px;*/
-  }
-}
-
 .arrow {
   color: #44c200;
   text-decoration: none;
@@ -132,13 +126,10 @@ button {
     border-radius: 3px;
     padding: .625em 2.5em;
     text-align: center;
-    font-weight: 600;
-
     font-size: 18px;
-    font-size: 1.8rem;
     position: relative;
     cursor: pointer;
-    padding: 12px 40px 12px 80px;
+    padding: 17px 40px 17px 80px;
 }
 
 button:before {
@@ -151,4 +142,18 @@ button:before {
     height: 40px;
     background: url(https://assets-cdn.mytaste.org/img/plugin/chrome_logo-40x40.png) no-repeat 0 0 transparent;
     margin: 0 auto 10px;
+}
+
+@media (max-width: 765px) {
+  .flex-grid {
+     flex-direction: column;
+  }
+
+  .flex-grid .hero {
+     order: 0;
+  }
+
+  .hero-halfscreen {
+    height: 100%;
+  }
 }
