@@ -1,0 +1,29 @@
+.flex-grid {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
+
+.col {
+  flex: 1;
+  /*flex: 0 1 auto;*/
+  /*align-self: auto;*/
+}
+
+.flex-lower-left {
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0px 20px 7.8vh 6.7vw;
+  color: white;
+  text-align: left;
+  position: relative;
+}

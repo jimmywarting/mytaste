@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+  <!-- Required meta tags always come first -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="theme-color" content="#7fd351">
+  <title>MyTaste</title>
+
+  <!-- Application stuff -->
+  <meta name="apple-itunes-app" content="app-id=919110990">
+
+  <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/kmfnnmioagmcopmmbdfpodhcpnehddbi">
+  <!--
+    Criteria to show the banner
+    Be visited by the user twice, over two separate days during the course of two weeks.
+    Or
+    enable chrome://flags/#bypass-app-banner-engagement-checks
+  -->
+  <link rel="manifest" href="/mytaste/manifest.json">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/ico">
+  <link rel="icon" href="img/favicon/favicon-196x196.png" sizes="196x196" type="image/png">
+  <link rel="icon" href="img/favicon/favicon-96x96.png" sizes="96x96" type="image/png">
+  <link rel="icon" href="img/favicon/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="img/favicon/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="img/favicon/favicon-128.png" sizes="128x128" type="image/png">
+  <link rel="apple-touch-icon-precomposed" href="img/favicon/apple-touch-icon-precomposed.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex-grid.css">
+
+</head><body>
+
+  <section class="hero-fullscreen flex-center flex-grid hero" style="background-image: url('img/heroes/tomayto-tomahto.png'); background-attachment: fixed;">
+    <div>
+      <h1>It’s all about your taste!</h1>
+      <h2>Learn why 20 million people use myTaste every day.</h2>
+      <a href="#about">
+        <svg id="scroll-down" class="about_hero__arrow" xmlns="http://www.w3.org/2000/svg" width="23" height="14" viewBox="0 0 23 14">
+          <path class="cls-1" d="M788,632.943a1.922,1.922,0,0,0,.582,1.378L799.5,645l10.918-10.68a1.922,1.922,0,0,0,.009-2.747,1.993,1.993,0,0,0-2.788-.009l-8.139,7.962-8.139-7.962a1.993,1.993,0,0,0-2.788.009A1.922,1.922,0,0,0,788,632.943Z" transform="translate(-788 -631)"></path>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <section class="hero-fullscreen" id="about">
+    <div class="flex-grid hero-halfscreen">
+      <div class="col hero" style="background-image: url('img/heroes/cacke2.png')"></div>
+      <div class="col flex-center">
+        <div style="padding: 0 5vw">
+          <h1>Insperation</h1>
+          <p>Get inspired by thousands of<br>incredible home cooks and<br>tastemakers online.</p>
+          <a class="arrow" href="http://mytaste.se">Show me</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-grid hero-halfscreen">
+      <div class="col flex-center">
+        <div style="padding: 0 5vw">
+          <h1>Make it</h1>
+          <p>Found something tasty in the<br>app on your way home? Just<br>go ahead and make it!</p>
+          <a class="arrow" href="http://mytaste.se">Show me</a>
+        </div>
+      </div>
+      <div class="col hero" style="background-image: url('img/heroes/blueberries2.png')"></div>
+    </div>
+  </section>
+
+  <section class="hero-fullscreen hero flex-lower-left" style="background-image: url('img/heroes/salad.png')">
+    <div>
+      <h1>Knowledge</h1>
+      <p>Learn from some of the best and most inspiring cooks on the net.</p>
+    </div>
+  </section>
+
+  <section class="hero-fullscreen">
+    <div class="flex-grid hero-halfscreen">
+      <div class="col hero" style="background-image: url('img/heroes/sandwiches.png')"></div>
+      <div class="col flex-center">
+        <div style="padding: 0 5vw">
+          <h1>Share it</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          <a class="arrow" href="http://mytaste.se">Show me</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-grid hero-halfscreen">
+      <div class="col flex-center">
+        <div style="padding: 0 5vw">
+          <h1>Keep it</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+          <a class="arrow" href="http://mytaste.se">Show me</a>
+        </div>
+      </div>
+      <div class="col hero" style="background-image: url('img/heroes/burger.png')"></div>
+    </div>
+  </section>
+
+  <section class="hero-fullscreen hero flex-lower-left" style="background-image: url('img/heroes/baking.png')">
+    <div>
+      <h1>Share the experience</h1>
+      <p>Cooking brings people together so dont forget to share the experience with friends and family.</p>
+    </div>
+  </section>
+
+  <section class="hero-fullscreen">
+    <div class="flex-grid hero-halfscreen">
+      <div class="col hero" style="background-image: url('img/heroes/web-app.jpg')"></div>
+      <div class="col flex-center">
+        <div style="padding: 0 5vw">
+          <h1>myTaste Browser Button</h1>
+          <h3>Save recipes from any website with one click.</h3>
+          <!-- Tried using inline installation, but not permitted (needs verification) -->
+          <button onclick="chrome.webstore.install(undefined, console.log, console.error)">Get your browser button</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-halfscreen hero-halfscreen hero" style="background-image: url('img/heroes/moley.png')"></div>
+  </section>
+
+  <section class="hero-fullscreen">
+    <div class="flex-grid hero-halfscreen">
+      <div class="col hero" style="background-image: url('img/heroes/blueberries2.png')"></div>
+      <div class="col flex-center">
+        <div style="padding: 0 5vw">
+          <h1>Make it</h1>
+          <p>Found something tasty in the app on your way home? Just go ahead and make it!</p>
+          <a class="arrow" href="http://mytaste.se">Show me</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-grid hero-halfscreen">
+      <div class="col flex-center">
+        <div style="padding: 0 5vw">
+          <h1>myTaste App</h1>
+          <h3>Bring your cookbook and recipe inspiration everywhare.</h3>
+          <div class="app-download-links">
+            <a href="https://play.google.com/store/apps/details?id=com.mytaste.mytaste" target="_blank" title="Download the myTaste app for Android!"><img src="https://assets-cdn.mytaste.org/img/mobile/badge--playstore.png" alt="Download the myTaste app for Android!"></a><br><br>
+            <a href="https://itunes.apple.com/se/app/mytaste-recept/id919110990" target="_blank" title="Download the myTaste app for iOS!"><img src="https://assets-cdn.mytaste.org/img/mobile/badge--appstore.png" alt="Download the myTaste app for iOS!"></a>
+          </div>
+        </div>
+      </div>
+      <div class="col hero" style="background-image: url('img/heroes/mobile-app.png'); background-color: #e4e4ea;"></div>
+    </div>
+  </section>
+
+  <script>
+  if (navigator.serviceWorker) {
+    navigator.serviceWorker.getRegistration('./').then(function(swReg){
+      swReg || navigator.serviceWorker.register('sw.js', {scope: './'})
+    })
+  }
+  </script>
+
+</body></html>
