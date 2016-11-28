@@ -144,7 +144,7 @@ button:before {
     margin: 0 auto 10px;
 }
 
-/*@media (max-width: 240px) {
+@media (max-width: 240px) {
   .flex-grid {
      flex-direction: column;
   }
@@ -156,4 +156,4 @@ button:before {
   .hero-halfscreen {
     height: 100%;
   }
-}*/
+}
