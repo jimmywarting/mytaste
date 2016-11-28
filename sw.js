@@ -1,5 +1,5 @@
 /*
- * Will automaticly cahce static resorces as we
+ * Will automaticly cache static resorces as we
  * keep on exploring the page more and more
  *
  * Meaning the secound time we load something it will be lightning fast!
