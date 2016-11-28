@@ -144,7 +144,7 @@ button:before {
     margin: 0 auto 10px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 300px) {
   .flex-grid {
      flex-direction: column;
   }
