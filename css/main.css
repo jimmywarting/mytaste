@@ -145,6 +145,10 @@ button:before {
 }
 
 @media (max-width: 370px) {
+  .hide-sm {
+    display: none;
+  }
+
   .flex-grid {
      flex-direction: column;
   }
